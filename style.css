@@ -1,0 +1,272 @@
+
+
+* {
+    box-sizing: border-box;
+}
+ body{ font-family:Times New Roman, Times, serif;
+            line-height: 1.6;
+            color:green;
+             margin: 0;
+        }
+        header{
+        padding: 20px 8%;
+        background-image: url(./img/anhbackgroud.jpg);}
+        header h1{ font-size: 50px;
+        font-weight: bold;
+        color: rgb(5, 75, 5);
+        font-family:pacifico, cursive;
+        text-align: left;}
+        
+        header p{ color:rgb(5, 75, 5);
+            margin: 20px;
+                font-weight: bold;
+                    font-size: 20px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+       .logo {
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.text {
+    text-align: left;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 36px;
+    color: rgb(5, 75, 5);
+    font-family: 'Pacifico', cursive;
+}
+
+.text p {
+    margin: 8px 0 0;
+    font-size: 18px;
+}
+        nav { height: 50px;
+           font-size: 18px;
+           background-color: rgb(55, 150, 102);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 50px;
+           box-shadow: 2px 2px 5px;
+        }
+        nav a{ color: rgb(6, 43, 9);
+         font-weight: bold;
+        text-decoration: none;}
+        nav a:hover{ background-color: rgb(8, 71, 11);
+        color: rgb(242, 253, 249);
+        padding: 12px;}
+        main{text-align: center; 
+        font-weight: bold;}
+.banner {
+    background-image: url(./img/anhbanner.png);
+    text-align: center;
+    padding: 90px 20px;
+    background-size: cover;
+    background-position: center;
+    color:#2ec973
+}
+
+.banner h1 {
+    margin: 0 0 15px;
+
+    font-size: 35px;
+}
+
+.banner p {
+    font-size: 18px;
+
+    margin-bottom: 25px;
+}
+.button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background-color: #37d191;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #37b191;
+
+    transform: translateY(-2px);
+}
+
+.bst {
+         width: auto;
+         border-collapse: collapse;
+        text-align: center;}
+.bst img {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+.bst img:hover {
+          transform: scale(1.1);}
+.bst td {
+          padding: 10px;
+          text-align: center;
+        }
+h2 { text-align: center;
+ font-weight: bold;}
+      
+#anh img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.about-home {
+    text-align: center;
+
+    padding: 60px 100px;
+
+    background-color: #ffe8f0;
+}
+
+.about-home h2 {
+    font-size: 28px;
+}
+
+.about-home p {
+    max-width: 700px;
+
+    margin: 20px auto 25px;
+
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background-color: #2ec973;
+}
+
+footer p {
+    margin: 6px 0;
+}
+form {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color:white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+form table {
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form td {
+    padding: 15px;
+    font-size: 18px;
+}
+
+form label {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.table {
+    width: 90%;
+    margin: 30px auto;
+
+    border-collapse: separate;
+    border-spacing: 20px;
+  }
+
+.table td {
+    width: 40%;
+    padding: 0;
+  }
+
+.box {
+    background-color: white;
+    min-height: 130px;
+    padding: 20px;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.box h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    }
+
+.box p {
+    color: #666;
+    line-height: 1.5;
+    }
+  #nl:hover{transform: scale(1.1);}
+  #dh:hover{transform: scale(1.1);}
+  #yc{font-weight: bold;}
+   #h1{font-weight: bold;
+        text-align: center;
+        color: rgb(55, 150, 102);}
+   .sanpham{ width: 100%;
+            border-collapse: collapse;
+            text-align: center;}
+    .sanpham img {
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgb(156, 156, 156);
+            transition: 0.3s;
+        }
+    .sanpham td {padding: 5px;}
+    .sanpham img:hover {
+        transform: scale(1.1);}
+        button {
+        background-color: rgb(55, 150, 102);
+        color: white;
+        border: none;
+        padding: 8px 18px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;}
+        button:hover {transform: scale(1.1);}
+

@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Hugs</title>
+    <link rel="stylesheet" href="../style.css">
+    </head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="../img/logo.png" alt="Logo Panda Hugs">
+
+        <div class="text">
+            <h1>PANDA HUGS</h1>
+            <p>Xinh từ những điều bé xíu</p>
+        </div>
+    </div>
+</header>
+      <nav>
+
+        <a href="../index.html">Trang chủ</a>
+        <a href="./gioithieu.html">Giới thiệu</a>
+        <a href="./sanpham.html">Sản phẩm</a>
+        <a href="./lienhe.html">Liên hệ</a>
+    </nav>
+<main>
+ <h2>PHIẾU ĐẶT HÀNG </h2>
+   <form>
+    <table>
+        
+        <tr>
+            <td><label for="hoten">Họ và tên</label>  </td>
+            <td><input type="text" name="hoten" id="hoten" placeholder="Nhập họ tên"></td>
+        </tr>
+        <tr>
+            <td><label for="sdt">Điện thoại</label> </td>
+            <td><input type="text" name="sdt" id="sdt" placeholder="Số điện thoại"> </td>
+        </tr>
+        <tr>
+            <td><label for="gm">Email</label></td>
+            <td><input type="text" name="gm" id="gm"></td>
+        </tr>
+        <tr>
+            <td><label for="sp">Sản phẩm muốn đặt</label></td>
+            <td>
+                <select name="sosp" id="sp">
+                    <option value="1n">Gấu bông </option>
+                    <option value="2n">Túi xách</option>
+                    <option value="3n">Vòng tay</option>
+                    <option value="4n">Chén</option>
+                    <option value="5n">Cài/kẹp tóc</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+       <td> <label for="nn">Ngày nhận hàng</label></td>
+       <td>  <input type="date" name="nn" id="nn"></td>
+       </tr>
+        <tr>
+            <td id="yc">Yêu cầu khác:</td>
+            <td>
+                <textarea name="yeucau" rows="5" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="đc">Địa chỉ giao hàng</label> </td>
+            <td><input type="text" name="đc" id="đc" placeholder="Nhập địa chỉ"> </td>
+        </tr>
+        <tr >
+            <td id="nl">
+                <input type="reset" value="NHẬP LẠI">
+            </td>
+            <td id="dh">
+                <input type="button" value="ĐẶT HÀNG" onclick="datHang()">
+            </td>
+        </tr>
+    </table>
+    </form>
+   
+    <table class="table">
+
+        <tr>
+            <td>
+                <div class="box">
+                    <h3>MIỄN PHÍ GIAO HÀNG</h3>
+                    <p>
+                        Miễn phí giao hàng cho đơn hàng từ 500.000 VNĐ trở lên
+                    </p>
+                </div>
+            </td>
+
+            <td>
+                <div class="box">
+                    <h3>HOÀN TIỀN</h3>
+                    <p>
+                        Trong vòng 2 ngày từ lúc nhận hàng nếu sản phẩm có vấn đề
+                    </p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="box">
+                    <h3>THANH TOÁN AN TOÀN</h3>
+                    <p>
+                        Ngân hàng/Momo/Shopee pay
+                    </p>
+                </div>
+            </td>
+
+            <td>
+                <div class="box">
+                    <h3>HỖ TRỢ 24/7</h3>
+                    <p>
+                        Chúng tôi sẽ phục vụ bạn tận tâm
+                    </p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+     <h2>
+        Cảm ơn bạn đã lựa chọn Panda Hugs
+    </h2>
+    </main>
+     <footer>
+
+        <p>
+            Địa chỉ: 914 đường số 1, TP. Hồ Chí Minh
+        </p>
+
+        <p>
+            Điện thoại: 0123 456 789
+        </p>
+
+        <p>
+            Email: pandashop@gmail.com
+        </p>
+
+        <p>
+            Người thiết kế: Nguyễn Ngọc Hằng
+        </p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
